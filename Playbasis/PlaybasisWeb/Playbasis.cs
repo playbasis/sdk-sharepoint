@@ -208,16 +208,6 @@ namespace pblib.NET
 			return call("Badge/" + badgeId + apiKeyParam);
 		}
 
-		public string badgeCollections()
-		{
-			return call("Badge/collection" + apiKeyParam);
-		}
-
-		public string badgeCollection(string collectionId)
-		{
-			return call("Badge/collection/" + collectionId + apiKeyParam);
-		}
-
 		public string actionConfig()
 		{
 			return call("Engine/actionConfig" + apiKeyParam);
