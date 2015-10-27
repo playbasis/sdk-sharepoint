@@ -200,7 +200,7 @@ namespace pblib.NET
 
 		public string badges()
 		{
-			return call("Badge" + apiKeyParam);
+			return call("Badges" + apiKeyParam);
 		}
 
 		public string badge(string badgeId)
